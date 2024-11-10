@@ -17,11 +17,11 @@ para crearme la cuenta es:
 
 GitHub te pedirá la siguiente información:
 
-- **Username**: El nombre de usuario que deseas utilizar. Este será tu identificador en la plataforma.
-- **Email Address**: La dirección de correo electrónico asociada a tu cuenta.
+- **Username**: El nombre de usuario que deseas utilizar. En mi caso es **vjp-raulAP**
+- **Email Address**: La dirección de correo electrónico asociada a tu cuenta. **ralbalatp01@infomatica.iesvalledeljerteplasencia.es**
 - **Password**: La contraseña que usarás para acceder a tu cuenta.
 
-Asegúrate de que tu nombre de usuario y correo electrónico sean correctos, ya que esta información se usará para las notificaciones y la identificación en los repositorios.
+Esta información se usará para las notificaciones y la identificación en los repositorios.
 
 ### Paso 3: Verificación
 
