@@ -107,6 +107,8 @@ Los pasos a realizar son los siguientes
 ![](imagenes/Capturagitstatus.png)
 
 5. Añade los diferentes archivos y carpetas ``git add ``o ``git add -A``
++ Al modificar cualquier archivo creado, tenemos que hacer **git add** del archivo que modifiquemos. Seguidamente hacemos un **git commit -m** y para subirlo a GitHub los cambios **git push origin main**.
+![](imagenes/Capturagitadd.png)
 
 7. Modifica algún archivo y vuelves a comprobar su estado.
 ![](imagenes/imagengitstatusmodificado.png)

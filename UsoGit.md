@@ -1,6 +1,6 @@
 Uso de Git
 ===
-Aquí explica el uso de los principales comandos e Git
+Aquí explica el uso de los principales comandos de Git.
 
 1. Configurar Git: git config --global user.name y git config --global user.email
 2. Inicializar o Clonar un Repositorio: git init o git clone <url>

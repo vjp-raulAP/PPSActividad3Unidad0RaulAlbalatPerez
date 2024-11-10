@@ -31,3 +31,4 @@ Para crear una cuenta en GitHub, sigue estos pasos:
    Elige tu plan: GitHub ofrece una opción gratuita que es suficiente para la mayoría de los usuarios.
    Completar el cuestionario  para personalizar
  
+d
