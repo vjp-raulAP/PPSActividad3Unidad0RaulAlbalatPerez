@@ -98,7 +98,7 @@ Los pasos a realizar son los siguientes
  Dentro del repositorio creado. Creamos una carpeta donde "imagenes" donde guardaremos todas las imagenes con el comando MKDIR 
  
 
-![](imagenes/imagen2.png)
+![](imagenes/tree.png)
 
 
 
