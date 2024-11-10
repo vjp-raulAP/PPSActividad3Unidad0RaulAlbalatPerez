@@ -1,4 +1,4 @@
-Actividad 3 - Unidad 0
+Actividad 3 - Unidad 0 -
 Uso de Git
 ===============
 ![](imagenes/excelencia.jpeg)
@@ -104,7 +104,7 @@ Los pasos a realizar son los siguientes
 
 3. Comprueba el estado ``git status``
 
-![](imagenes/imagengitstatus.png)
+![](imagenes/Capturagitstatus.png)
 
 5. Añade los diferentes archivos y carpetas ``git add ``o ``git add -A``
 
