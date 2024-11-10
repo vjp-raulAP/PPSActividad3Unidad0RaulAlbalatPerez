@@ -27,17 +27,49 @@ Para realizar la actividad te sugiero que sigas el documento de Victor Ponz que 
 Los pasos a realizar son los siguientes
 
 1. Abre una cuenta en Github.com con tu cuenta de @informatica.iesvalledeljerteplasencia.es.
++ La cuenta ya la tengo abierta ya que la usamos en primero de ASIR. el correo elctronico es **ralbalatp01@informatica.iesvalledeljerteplasencia.es** y el usuario **vjp-raulAP**
++ Accedo con mis credenciales y contraseñas y podemos ver esto:
 
+![](imagenes/dashboardgithub.png)
 2. Instala git y php en tu equipo.
+  + Para instalar **git** haremos:
+ 
+~~~
+     /// sudo apt update 
+     /// sudo apt install git
+     *verificamos la instalacion de git
+     /// git --version
+~~~        
++ Para instalar **php**:
+~~~ 
+     /// sudo apt install php
+     *verificamos la instalacion de php
+     /// php --version
+~~~     
 
 3. Configura tu cuenta y git correctamente.
++ Para configurar el nombre y correo para asociar los commit correctamente hacemos:
+~~~ 
+     git config --global user.name "Raul Albalat Perez"
+     git config --gloval user.email "ralbalatp01@informatica.iesvalledeljerteplasencia.es"
+~~~ 
+
 > - Recuerda que tienes que crear una clave y añadirla en git [puedes consultar 
 éste artículo](https://juncotic.com/repositorios-git-ssh/) 
-
-
+  + Creacion de clave **SSH** y agregarla a **Github**
+    - Lo que tenemos que hacer es generar una clave SSH para autenticarnos sin necesidad de contraseñas. con el comando.
+      ~~~ 
+       /// ssh-keygen -t rsa -b -C ralbalatp01@informatica.iesvalledeljerteplasencia.es
+      ~~~     
+    - Despues tenemos que agregar la clave pública a mi cuenta de Github copiando la clavecon el comando.
+      ~~~ 
+       /// cat ~/.ssh/id_rsa.pub
+      ~~~     
+    - Copiamos el contenido y dentro de Github en Settings > SSH and GPG keys pegamos nuestra clave
+    ![](imagenes/captura7clavessh2.png)
 >### Contenidos del repositorio
  
- El repositorio deberá de contener al menos los siguientes archivos y carpetas:
+ El repositorio contiene los siguientes archivos y carpetas:
 
 + Carpeta "Images" con las imágenes y capturas que aparecen el los ficheros.md
 + README.md donde se incluirá una introducción.
@@ -71,10 +103,20 @@ Los pasos a realizar son los siguientes
 
 
 3. Comprueba el estado ``git status``
-4. Añade los diferentes archivos y carpetas ``git add ``o ``git add -A``
-5. Modifica algún archivo y vuelves a comprobar su estado.
-6. Haz un ``commit``como comentario indica que es la creación de archivos y vuelves a comprobar su estado
-7. Sube los cambios al repositorio remoto ``git push origin main` y comprueba si todo se visualiza correctamente.
+
+![](imagenes/imagengitstatus.png)
+
+5. Añade los diferentes archivos y carpetas ``git add ``o ``git add -A``
+
+7. Modifica algún archivo y vuelves a comprobar su estado.
+![](imagenes/imagengitstatusmodificado.png)
+
+9. Haz un ``commit``como comentario indica que es la creación de archivos y vuelves a comprobar su estado
+
+
+11. Sube los cambios al repositorio remoto ``git push origin main` y comprueba si todo se visualiza correctamente.
+
+
 
 # Entrega de la actividad
 En esta entrega deberas de haber modificado los archivos:
