@@ -111,12 +111,14 @@ Los pasos a realizar son los siguientes
 ![](imagenes/Capturagitadd.png)
 
 7. Modifica algún archivo y vuelves a comprobar su estado.
-![](imagenes/imagengitstatusmodificado.png)
+![](imagenes/Capturagitstatus.png)
 
 9. Haz un ``commit``como comentario indica que es la creación de archivos y vuelves a comprobar su estado
++ Para hacer un commit lo que hacemoses el comando **git commit -m "Ponemos comentario del cambiorealizado"**
 
 
 11. Sube los cambios al repositorio remoto ``git push origin main` y comprueba si todo se visualiza correctamente.
+![](imagenes/cambiosrealizados.png)
 
 
 
